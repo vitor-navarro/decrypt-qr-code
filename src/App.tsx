@@ -12,7 +12,6 @@ function App() {
             const img = e.target.files[0];
             setUrl(URL.createObjectURL(img));
 
-            // Carregar a imagem
             const image = new Image();
             image.src = URL.createObjectURL(img);
 
